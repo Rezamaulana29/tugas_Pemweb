@@ -1,0 +1,42 @@
+h1{
+   text-transform: uppercase;
+   font-family: jokerman, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   color:brown;
+   letter-spacing: 5px;
+   text-shadow: 2px 2px 2px yellow;
+}
+p{
+    text-align: justify;
+    color: maroon;
+    font-size: 14pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+hr{
+    border: 2px dotted red;
+}
+fieldset,legend{ /* grouping */
+        border: 10px ridge,red;
+        padding: 5px   10px;
+        border: radius 45px;
+}       
+    legend{
+        background-color: pink;
+    }
+body{
+    margin: 0.5cm 2cm;
+}
+a:visited,a:link{
+    text-decoration: none;
+    border: 1px solid greenyellow;
+    background-color: red;
+    padding: 2px 5px;
+    border-radius: 25;
+    color: aliceblue;
+}
+a:hover{
+    text-decoration: none;
+    border: 1px solid maroon;
+    background-color: aqua;
+    padding: 2px 5px;
+    border-radius: 25;
+}
